@@ -1,0 +1,300 @@
+test0.txt:job.sh random1G.dat
+	./job.sh test0.txt ./random1G.dat 0
+
+test1.txt:job.sh random1G.dat
+	./job.sh test1.txt ./random1G.dat 1
+
+test2.txt:job.sh random1G.dat
+	./job.sh test2.txt ./random1G.dat 2
+
+test3.txt:job.sh random1G.dat
+	./job.sh test3.txt ./random1G.dat 3
+
+test4.txt:job.sh random1G.dat
+	./job.sh test4.txt ./random1G.dat 4
+
+test5.txt:job.sh random1G.dat
+	./job.sh test5.txt ./random1G.dat 5
+
+test6.txt:job.sh random1G.dat
+	./job.sh test6.txt ./random1G.dat 6
+
+test7.txt:job.sh random1G.dat
+	./job.sh test7.txt ./random1G.dat 7
+
+test8.txt:job.sh random1G.dat
+	./job.sh test8.txt ./random1G.dat 8
+
+test9.txt:job.sh random1G.dat
+	./job.sh test9.txt ./random1G.dat 9
+
+test10.txt:job.sh random1G.dat
+	./job.sh test10.txt ./random1G.dat 10
+
+test11.txt:job.sh random1G.dat
+	./job.sh test11.txt ./random1G.dat 11
+
+test12.txt:job.sh random1G.dat
+	./job.sh test12.txt ./random1G.dat 12
+
+test13.txt:job.sh random1G.dat
+	./job.sh test13.txt ./random1G.dat 13
+
+test14.txt:job.sh random1G.dat
+	./job.sh test14.txt ./random1G.dat 14
+
+test15.txt:job.sh random1G.dat
+	./job.sh test15.txt ./random1G.dat 15
+
+test16.txt:job.sh random1G.dat
+	./job.sh test16.txt ./random1G.dat 16
+
+test17.txt:job.sh random1G.dat
+	./job.sh test17.txt ./random1G.dat 17
+
+test18.txt:job.sh random1G.dat
+	./job.sh test18.txt ./random1G.dat 18
+
+test19.txt:job.sh random1G.dat
+	./job.sh test19.txt ./random1G.dat 19
+
+test20.txt:job.sh random1G.dat
+	./job.sh test20.txt ./random1G.dat 20
+
+test21.txt:job.sh random1G.dat
+	./job.sh test21.txt ./random1G.dat 21
+
+test22.txt:job.sh random1G.dat
+	./job.sh test22.txt ./random1G.dat 22
+
+test23.txt:job.sh random1G.dat
+	./job.sh test23.txt ./random1G.dat 23
+
+test24.txt:job.sh random1G.dat
+	./job.sh test24.txt ./random1G.dat 24
+
+test25.txt:job.sh random1G.dat
+	./job.sh test25.txt ./random1G.dat 25
+
+test26.txt:job.sh random1G.dat
+	./job.sh test26.txt ./random1G.dat 26
+
+test27.txt:job.sh random1G.dat
+	./job.sh test27.txt ./random1G.dat 27
+
+test28.txt:job.sh random1G.dat
+	./job.sh test28.txt ./random1G.dat 28
+
+test29.txt:job.sh random1G.dat
+	./job.sh test29.txt ./random1G.dat 29
+
+test30.txt:job.sh random1G.dat
+	./job.sh test30.txt ./random1G.dat 30
+
+test31.txt:job.sh random1G.dat
+	./job.sh test31.txt ./random1G.dat 31
+
+test32.txt:job.sh random1G.dat
+	./job.sh test32.txt ./random1G.dat 32
+
+test33.txt:job.sh random1G.dat
+	./job.sh test33.txt ./random1G.dat 33
+
+test34.txt:job.sh random1G.dat
+	./job.sh test34.txt ./random1G.dat 34
+
+test35.txt:job.sh random1G.dat
+	./job.sh test35.txt ./random1G.dat 35
+
+test36.txt:job.sh random1G.dat
+	./job.sh test36.txt ./random1G.dat 36
+
+test37.txt:job.sh random1G.dat
+	./job.sh test37.txt ./random1G.dat 37
+
+test38.txt:job.sh random1G.dat
+	./job.sh test38.txt ./random1G.dat 38
+
+test39.txt:job.sh random1G.dat
+	./job.sh test39.txt ./random1G.dat 39
+
+test40.txt:job.sh random1G.dat
+	./job.sh test40.txt ./random1G.dat 40
+
+test41.txt:job.sh random1G.dat
+	./job.sh test41.txt ./random1G.dat 41
+
+test42.txt:job.sh random1G.dat
+	./job.sh test42.txt ./random1G.dat 42
+
+test43.txt:job.sh random1G.dat
+	./job.sh test43.txt ./random1G.dat 43
+
+test44.txt:job.sh random1G.dat
+	./job.sh test44.txt ./random1G.dat 44
+
+test45.txt:job.sh random1G.dat
+	./job.sh test45.txt ./random1G.dat 45
+
+test46.txt:job.sh random1G.dat
+	./job.sh test46.txt ./random1G.dat 46
+
+test47.txt:job.sh random1G.dat
+	./job.sh test47.txt ./random1G.dat 47
+
+test48.txt:job.sh random1G.dat
+	./job.sh test48.txt ./random1G.dat 48
+
+test49.txt:job.sh random1G.dat
+	./job.sh test49.txt ./random1G.dat 49
+
+test50.txt:job.sh random1G.dat
+	./job.sh test50.txt ./random1G.dat 50
+
+test51.txt:job.sh random1G.dat
+	./job.sh test51.txt ./random1G.dat 51
+
+test52.txt:job.sh random1G.dat
+	./job.sh test52.txt ./random1G.dat 52
+
+test53.txt:job.sh random1G.dat
+	./job.sh test53.txt ./random1G.dat 53
+
+test54.txt:job.sh random1G.dat
+	./job.sh test54.txt ./random1G.dat 54
+
+test55.txt:job.sh random1G.dat
+	./job.sh test55.txt ./random1G.dat 55
+
+test56.txt:job.sh random1G.dat
+	./job.sh test56.txt ./random1G.dat 56
+
+test57.txt:job.sh random1G.dat
+	./job.sh test57.txt ./random1G.dat 57
+
+test58.txt:job.sh random1G.dat
+	./job.sh test58.txt ./random1G.dat 58
+
+test59.txt:job.sh random1G.dat
+	./job.sh test59.txt ./random1G.dat 59
+
+test60.txt:job.sh random1G.dat
+	./job.sh test60.txt ./random1G.dat 60
+
+test61.txt:job.sh random1G.dat
+	./job.sh test61.txt ./random1G.dat 61
+
+test62.txt:job.sh random1G.dat
+	./job.sh test62.txt ./random1G.dat 62
+
+test63.txt:job.sh random1G.dat
+	./job.sh test63.txt ./random1G.dat 63
+
+test64.txt:job.sh random1G.dat
+	./job.sh test64.txt ./random1G.dat 64
+
+test65.txt:job.sh random1G.dat
+	./job.sh test65.txt ./random1G.dat 65
+
+test66.txt:job.sh random1G.dat
+	./job.sh test66.txt ./random1G.dat 66
+
+test67.txt:job.sh random1G.dat
+	./job.sh test67.txt ./random1G.dat 67
+
+test68.txt:job.sh random1G.dat
+	./job.sh test68.txt ./random1G.dat 68
+
+test69.txt:job.sh random1G.dat
+	./job.sh test69.txt ./random1G.dat 69
+
+test70.txt:job.sh random1G.dat
+	./job.sh test70.txt ./random1G.dat 70
+
+test71.txt:job.sh random1G.dat
+	./job.sh test71.txt ./random1G.dat 71
+
+test72.txt:job.sh random1G.dat
+	./job.sh test72.txt ./random1G.dat 72
+
+test73.txt:job.sh random1G.dat
+	./job.sh test73.txt ./random1G.dat 73
+
+test74.txt:job.sh random1G.dat
+	./job.sh test74.txt ./random1G.dat 74
+
+test75.txt:job.sh random1G.dat
+	./job.sh test75.txt ./random1G.dat 75
+
+test76.txt:job.sh random1G.dat
+	./job.sh test76.txt ./random1G.dat 76
+
+test77.txt:job.sh random1G.dat
+	./job.sh test77.txt ./random1G.dat 77
+
+test78.txt:job.sh random1G.dat
+	./job.sh test78.txt ./random1G.dat 78
+
+test79.txt:job.sh random1G.dat
+	./job.sh test79.txt ./random1G.dat 79
+
+test80.txt:job.sh random1G.dat
+	./job.sh test80.txt ./random1G.dat 80
+
+test81.txt:job.sh random1G.dat
+	./job.sh test81.txt ./random1G.dat 81
+
+test82.txt:job.sh random1G.dat
+	./job.sh test82.txt ./random1G.dat 82
+
+test83.txt:job.sh random1G.dat
+	./job.sh test83.txt ./random1G.dat 83
+
+test84.txt:job.sh random1G.dat
+	./job.sh test84.txt ./random1G.dat 84
+
+test85.txt:job.sh random1G.dat
+	./job.sh test85.txt ./random1G.dat 85
+
+test86.txt:job.sh random1G.dat
+	./job.sh test86.txt ./random1G.dat 86
+
+test87.txt:job.sh random1G.dat
+	./job.sh test87.txt ./random1G.dat 87
+
+test88.txt:job.sh random1G.dat
+	./job.sh test88.txt ./random1G.dat 88
+
+test89.txt:job.sh random1G.dat
+	./job.sh test89.txt ./random1G.dat 89
+
+test90.txt:job.sh random1G.dat
+	./job.sh test90.txt ./random1G.dat 90
+
+test91.txt:job.sh random1G.dat
+	./job.sh test91.txt ./random1G.dat 91
+
+test92.txt:job.sh random1G.dat
+	./job.sh test92.txt ./random1G.dat 92
+
+test93.txt:job.sh random1G.dat
+	./job.sh test93.txt ./random1G.dat 93
+
+test94.txt:job.sh random1G.dat
+	./job.sh test94.txt ./random1G.dat 94
+
+test95.txt:job.sh random1G.dat
+	./job.sh test95.txt ./random1G.dat 95
+
+test96.txt:job.sh random1G.dat
+	./job.sh test96.txt ./random1G.dat 96
+
+test97.txt:job.sh random1G.dat
+	./job.sh test97.txt ./random1G.dat 97
+
+test98.txt:job.sh random1G.dat
+	./job.sh test98.txt ./random1G.dat 98
+
+test99.txt:job.sh random1G.dat
+	./job.sh test99.txt ./random1G.dat 99
+
