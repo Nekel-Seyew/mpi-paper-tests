@@ -6,10 +6,10 @@
 #$ -q long		 # Specify queue
 #$ -N mpi_starter	 # Specify job name
 
-module load ompi	         # Required modules
+#module load ompi	         # Required modules
 
 #printenv > envvars.txt
-#mpirun -np $NSLOTS mpi_starter -m "blast_test.mf"# Application to execute
+mpirun -np $NSLOTS mpi_starter -m "Makeflow"# Application to execute
 #mpirun -npernode 1 mpi_starter -m "blast_test.mf"
 #mpirun -np $NSLOTS makeflow -T mpi -dall -o Makeflow.debug Makeflow --working-dir=/tmp
-mpirun -np $NSLOTS makeflow -T mpi -dall -o Makeflow.debug Makeflow
+#mpirun -np $NSLOTS makeflow -T mpi -dall -o Makeflow.debug Makeflow

@@ -1,0 +1,60 @@
+#!/usr/bin/python
+
+import os
+import sys
+
+def mean(a):
+	return sum(a)/len(a)
+
+
+if __name__ == '__main__':
+	one = []
+	two = []
+	four = []
+	six = []
+	eight = []
+	ten = []
+	thou = []
+	tthou = []
+	for x in sys.argv[1:]:
+		print x
+		with open(x,"r") as f:
+			for line in f:
+				if '#' in line:
+					continue
+				sline = line.split()
+				num = sline[0]
+				val = float(sline[1])
+				if num == "0.001":
+					one.append(val)
+				if num == "0.01":
+					two.append(val)
+				if num == "0.1":
+					four.append(val)
+				if num == "1.0":
+					six.append(val)
+				if num == "10.0":
+					eight.append(val)
+				if num == "100.0":
+					ten.append(val)
+				if num == "1000.0":
+					thou.append(val)
+				if num == "10000.0":
+					tthou.append(val)
+	one.sort()
+	two.sort()
+	four.sort()
+	six.sort()
+	eight.sort()
+	ten.sort()
+	thou.sort()
+	tthou.sort()
+	print("X\tmin\tmean\tmax")
+	print("0.001\t%f\t%f\t%f"%(min(one),mean(one),max(one)))
+	print("0.01\t%f\t%f\t%f"%(min(two),mean(two),max(two)))
+	print("0.1\t%f\t%f\t%f"%(min(four),mean(four),max(four)))
+	print("1.0\t%f\t%f\t%f"%(min(six),mean(six),max(six)))
+	print("10.0\t%f\t%f\t%f"%(min(eight),mean(eight),max(eight)))
+	print("100.0\t%f\t%f\t%f"%(min(ten),mean(ten),max(ten)))
+	print("1000.0\t%f\t%f\t%f"%(min(thou),mean(thou),max(thou)))
+	print("10000.0\t%f\t%f\t%f"%(min(tthou),mean(tthou),max(tthou)))

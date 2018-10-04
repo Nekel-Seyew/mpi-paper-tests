@@ -1,3 +1,7 @@
+CORES=1
+MEMORY=1000
+DISK=1000
+
 :
 	echo hello > /dev/null
 

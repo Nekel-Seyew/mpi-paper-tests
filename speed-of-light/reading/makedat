@@ -1,0 +1,10 @@
+#!/bin/sh
+
+#printf "%s\n" $(date +"%s.%N") >> $1
+for y in $(seq 0 1 100)
+do
+	#./read $2 
+	#dd bs=4096 if=$2 of=/dev/null
+	dd if=/dev/urandom of=random1G.dat.$y count=2097152 #this is using the default block size of 512 bytes
+done
+#printf "%s\n" $(date +"%s.%N") >> $1

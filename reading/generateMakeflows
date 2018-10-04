@@ -1,0 +1,41 @@
+
+#1KiB
+with open("Makeflow1kib","w+") as f:
+	f.write("CORES=1\nMEMORY=1000\nDISK=1\n\n")
+	for x in range(100):
+		f.write("out%i.txt:1kiB.dat job.sh reader\n\tsh job.sh 1kiB.dat out%i.txt\n\n"%(x+1,x+1))
+
+with open("Makeflow10kib","w+") as f:
+        f.write("CORES=1\nMEMORY=1000\nDISK=1\n\n")
+        for x in range(100):
+                f.write("out%i.txt:10kiB.dat job.sh reader\n\tsh job.sh 10kiB.dat out%i.txt\n\n"%(x+1,x+1))
+
+with open("Makeflow100kib","w+") as f:
+        f.write("CORES=1\nMEMORY=1000\nDISK=1\n\n")
+        for x in range(100):
+                f.write("out%i.txt:100kiB.dat job.sh reader\n\tsh job.sh 100kiB.dat out%i.txt\n\n"%(x+1,x+1))
+
+with open("Makeflow1mib","w+") as f:
+        f.write("CORES=1\nMEMORY=1000\nDISK=2\n\n")
+        for x in range(100):
+                f.write("out%i.txt:1miB.dat job.sh reader\n\tsh job.sh 1miB.dat out%i.txt\n\n"%(x+1,x+1))
+
+with open("Makeflow10mib","w+") as f:
+        f.write("CORES=1\nMEMORY=1000\nDISK=13\n\n")
+        for x in range(100):
+                f.write("out%i.txt:10miB.dat job.sh reader\n\tsh job.sh 10miB.dat out%i.txt\n\n"%(x+1,x+1))
+
+with open("Makeflow100mib","w+") as f:
+        f.write("CORES=1\nMEMORY=1000\nDISK=115\n\n")
+        for x in range(100):
+                f.write("out%i.txt:100miB.dat job.sh reader\n\tsh job.sh 100miB.dat out%i.txt\n\n"%(x+1,x+1))
+
+with open("Makeflow1gib","w+") as f:
+        f.write("CORES=1\nMEMORY=1000\nDISK=1074\n\n")
+        for x in range(100):
+                f.write("out%i.txt:1giB.dat job.sh reader\n\tsh job.sh 1giB.dat out%i.txt\n\n"%(x+1,x+1))
+
+with open("Makeflow10gib","w+") as f:
+        f.write("CORES=1\nMEMORY=1000\nDISK=10738\n\n")
+        for x in range(100):
+                f.write("out%i.txt:10giB.dat job.sh reader\n\tsh job.sh 10giB.dat out%i.txt\n\n"%(x+1,x+1))

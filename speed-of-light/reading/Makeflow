@@ -1,300 +1,304 @@
-test0.txt:job.sh random1G.dat
-	./job.sh test0.txt ./random1G.dat 0
+CORES=1
+MEMORY=1000
+DISK=2048
 
-test1.txt:job.sh random1G.dat
-	./job.sh test1.txt ./random1G.dat 1
+test0.txt:read random1G.dat
+	./read ./random1G.dat 1048576 >> test0.txt
 
-test2.txt:job.sh random1G.dat
-	./job.sh test2.txt ./random1G.dat 2
+test1.txt:read random1G.dat
+	./read ./random1G.dat 1048576 >> test1.txt
 
-test3.txt:job.sh random1G.dat
-	./job.sh test3.txt ./random1G.dat 3
+test2.txt:read random1G.dat
+	./read ./random1G.dat 1048576 >> test2.txt
 
-test4.txt:job.sh random1G.dat
-	./job.sh test4.txt ./random1G.dat 4
+test3.txt:read random1G.dat
+	./read ./random1G.dat 1048576 >> test3.txt
 
-test5.txt:job.sh random1G.dat
-	./job.sh test5.txt ./random1G.dat 5
+test4.txt:read random1G.dat
+	./read ./random1G.dat 1048576 >> test4.txt
 
-test6.txt:job.sh random1G.dat
-	./job.sh test6.txt ./random1G.dat 6
+test5.txt:read random1G.dat
+	./read ./random1G.dat 1048576 >> test5.txt
 
-test7.txt:job.sh random1G.dat
-	./job.sh test7.txt ./random1G.dat 7
+test6.txt:read random1G.dat
+	./read ./random1G.dat 1048576 >> test6.txt
 
-test8.txt:job.sh random1G.dat
-	./job.sh test8.txt ./random1G.dat 8
+test7.txt:read random1G.dat
+	./read ./random1G.dat 1048576 >> test7.txt
 
-test9.txt:job.sh random1G.dat
-	./job.sh test9.txt ./random1G.dat 9
+test8.txt:read random1G.dat
+	./read ./random1G.dat 1048576 >> test8.txt
 
-test10.txt:job.sh random1G.dat
-	./job.sh test10.txt ./random1G.dat 10
+test9.txt:read random1G.dat
+	./read ./random1G.dat 1048576 >> test9.txt
 
-test11.txt:job.sh random1G.dat
-	./job.sh test11.txt ./random1G.dat 11
+test10.txt:read random1G.dat
+	./read ./random1G.dat 1048576 >> test10.txt
 
-test12.txt:job.sh random1G.dat
-	./job.sh test12.txt ./random1G.dat 12
+test11.txt:read random1G.dat
+	./read ./random1G.dat 1048576 >> test11.txt
 
-test13.txt:job.sh random1G.dat
-	./job.sh test13.txt ./random1G.dat 13
+test12.txt:read random1G.dat
+	./read ./random1G.dat 1048576 >> test12.txt
 
-test14.txt:job.sh random1G.dat
-	./job.sh test14.txt ./random1G.dat 14
+test13.txt:read random1G.dat
+	./read ./random1G.dat 1048576 >> test13.txt
 
-test15.txt:job.sh random1G.dat
-	./job.sh test15.txt ./random1G.dat 15
+test14.txt:read random1G.dat
+	./read ./random1G.dat 1048576 >> test14.txt
 
-test16.txt:job.sh random1G.dat
-	./job.sh test16.txt ./random1G.dat 16
+test15.txt:read random1G.dat
+	./read ./random1G.dat 1048576 >> test15.txt
 
-test17.txt:job.sh random1G.dat
-	./job.sh test17.txt ./random1G.dat 17
+test16.txt:read random1G.dat
+	./read ./random1G.dat 1048576 >> test16.txt
 
-test18.txt:job.sh random1G.dat
-	./job.sh test18.txt ./random1G.dat 18
+test17.txt:read random1G.dat
+	./read ./random1G.dat 1048576 >> test17.txt
 
-test19.txt:job.sh random1G.dat
-	./job.sh test19.txt ./random1G.dat 19
+test18.txt:read random1G.dat
+	./read ./random1G.dat 1048576 >> test18.txt
 
-test20.txt:job.sh random1G.dat
-	./job.sh test20.txt ./random1G.dat 20
+test19.txt:read random1G.dat
+	./read ./random1G.dat 1048576 >> test19.txt
 
-test21.txt:job.sh random1G.dat
-	./job.sh test21.txt ./random1G.dat 21
+test20.txt:read random1G.dat
+	./read ./random1G.dat 1048576 >> test20.txt
 
-test22.txt:job.sh random1G.dat
-	./job.sh test22.txt ./random1G.dat 22
+test21.txt:read random1G.dat
+	./read ./random1G.dat 1048576 >> test21.txt
 
-test23.txt:job.sh random1G.dat
-	./job.sh test23.txt ./random1G.dat 23
+test22.txt:read random1G.dat
+	./read ./random1G.dat 1048576 >> test22.txt
 
-test24.txt:job.sh random1G.dat
-	./job.sh test24.txt ./random1G.dat 24
+test23.txt:read random1G.dat
+	./read ./random1G.dat 1048576 >> test23.txt
 
-test25.txt:job.sh random1G.dat
-	./job.sh test25.txt ./random1G.dat 25
+test24.txt:read random1G.dat
+	./read ./random1G.dat 1048576 >> test24.txt
 
-test26.txt:job.sh random1G.dat
-	./job.sh test26.txt ./random1G.dat 26
+test25.txt:read random1G.dat
+	./read ./random1G.dat 1048576 >> test25.txt
 
-test27.txt:job.sh random1G.dat
-	./job.sh test27.txt ./random1G.dat 27
+test26.txt:read random1G.dat
+	./read ./random1G.dat 1048576 >> test26.txt
 
-test28.txt:job.sh random1G.dat
-	./job.sh test28.txt ./random1G.dat 28
+test27.txt:read random1G.dat
+	./read ./random1G.dat 1048576 >> test27.txt
 
-test29.txt:job.sh random1G.dat
-	./job.sh test29.txt ./random1G.dat 29
+test28.txt:read random1G.dat
+	./read ./random1G.dat 1048576 >> test28.txt
 
-test30.txt:job.sh random1G.dat
-	./job.sh test30.txt ./random1G.dat 30
+test29.txt:read random1G.dat
+	./read ./random1G.dat 1048576 >> test29.txt
 
-test31.txt:job.sh random1G.dat
-	./job.sh test31.txt ./random1G.dat 31
+test30.txt:read random1G.dat
+	./read ./random1G.dat 1048576 >> test30.txt
 
-test32.txt:job.sh random1G.dat
-	./job.sh test32.txt ./random1G.dat 32
+test31.txt:read random1G.dat
+	./read ./random1G.dat 1048576 >> test31.txt
 
-test33.txt:job.sh random1G.dat
-	./job.sh test33.txt ./random1G.dat 33
+test32.txt:read random1G.dat
+	./read ./random1G.dat 1048576 >> test32.txt
 
-test34.txt:job.sh random1G.dat
-	./job.sh test34.txt ./random1G.dat 34
+test33.txt:read random1G.dat
+	./read ./random1G.dat 1048576 >> test33.txt
 
-test35.txt:job.sh random1G.dat
-	./job.sh test35.txt ./random1G.dat 35
+test34.txt:read random1G.dat
+	./read ./random1G.dat 1048576 >> test34.txt
 
-test36.txt:job.sh random1G.dat
-	./job.sh test36.txt ./random1G.dat 36
+test35.txt:read random1G.dat
+	./read ./random1G.dat 1048576 >> test35.txt
 
-test37.txt:job.sh random1G.dat
-	./job.sh test37.txt ./random1G.dat 37
+test36.txt:read random1G.dat
+	./read ./random1G.dat 1048576 >> test36.txt
 
-test38.txt:job.sh random1G.dat
-	./job.sh test38.txt ./random1G.dat 38
+test37.txt:read random1G.dat
+	./read ./random1G.dat 1048576 >> test37.txt
 
-test39.txt:job.sh random1G.dat
-	./job.sh test39.txt ./random1G.dat 39
+test38.txt:read random1G.dat
+	./read ./random1G.dat 1048576 >> test38.txt
 
-test40.txt:job.sh random1G.dat
-	./job.sh test40.txt ./random1G.dat 40
+test39.txt:read random1G.dat
+	./read ./random1G.dat 1048576 >> test39.txt
 
-test41.txt:job.sh random1G.dat
-	./job.sh test41.txt ./random1G.dat 41
+test40.txt:read random1G.dat
+	./read ./random1G.dat 1048576 >> test40.txt
 
-test42.txt:job.sh random1G.dat
-	./job.sh test42.txt ./random1G.dat 42
+test41.txt:read random1G.dat
+	./read ./random1G.dat 1048576 >> test41.txt
 
-test43.txt:job.sh random1G.dat
-	./job.sh test43.txt ./random1G.dat 43
+test42.txt:read random1G.dat
+	./read ./random1G.dat 1048576 >> test42.txt
 
-test44.txt:job.sh random1G.dat
-	./job.sh test44.txt ./random1G.dat 44
+test43.txt:read random1G.dat
+	./read ./random1G.dat 1048576 >> test43.txt
 
-test45.txt:job.sh random1G.dat
-	./job.sh test45.txt ./random1G.dat 45
+test44.txt:read random1G.dat
+	./read ./random1G.dat 1048576 >> test44.txt
 
-test46.txt:job.sh random1G.dat
-	./job.sh test46.txt ./random1G.dat 46
+test45.txt:read random1G.dat
+	./read ./random1G.dat 1048576 >> test45.txt
 
-test47.txt:job.sh random1G.dat
-	./job.sh test47.txt ./random1G.dat 47
+test46.txt:read random1G.dat
+	./read ./random1G.dat 1048576 >> test46.txt
 
-test48.txt:job.sh random1G.dat
-	./job.sh test48.txt ./random1G.dat 48
+test47.txt:read random1G.dat
+	./read ./random1G.dat 1048576 >> test47.txt
 
-test49.txt:job.sh random1G.dat
-	./job.sh test49.txt ./random1G.dat 49
+test48.txt:read random1G.dat
+	./read ./random1G.dat 1048576 >> test48.txt
 
-test50.txt:job.sh random1G.dat
-	./job.sh test50.txt ./random1G.dat 50
+test49.txt:read random1G.dat
+	./read ./random1G.dat 1048576 >> test49.txt
 
-test51.txt:job.sh random1G.dat
-	./job.sh test51.txt ./random1G.dat 51
+test50.txt:read random1G.dat
+	./read ./random1G.dat 1048576 >> test50.txt
 
-test52.txt:job.sh random1G.dat
-	./job.sh test52.txt ./random1G.dat 52
+test51.txt:read random1G.dat
+	./read ./random1G.dat 1048576 >> test51.txt
 
-test53.txt:job.sh random1G.dat
-	./job.sh test53.txt ./random1G.dat 53
+test52.txt:read random1G.dat
+	./read ./random1G.dat 1048576 >> test52.txt
 
-test54.txt:job.sh random1G.dat
-	./job.sh test54.txt ./random1G.dat 54
+test53.txt:read random1G.dat
+	./read ./random1G.dat 1048576 >> test53.txt
 
-test55.txt:job.sh random1G.dat
-	./job.sh test55.txt ./random1G.dat 55
+test54.txt:read random1G.dat
+	./read ./random1G.dat 1048576 >> test54.txt
 
-test56.txt:job.sh random1G.dat
-	./job.sh test56.txt ./random1G.dat 56
+test55.txt:read random1G.dat
+	./read ./random1G.dat 1048576 >> test55.txt
 
-test57.txt:job.sh random1G.dat
-	./job.sh test57.txt ./random1G.dat 57
+test56.txt:read random1G.dat
+	./read ./random1G.dat 1048576 >> test56.txt
 
-test58.txt:job.sh random1G.dat
-	./job.sh test58.txt ./random1G.dat 58
+test57.txt:read random1G.dat
+	./read ./random1G.dat 1048576 >> test57.txt
 
-test59.txt:job.sh random1G.dat
-	./job.sh test59.txt ./random1G.dat 59
+test58.txt:read random1G.dat
+	./read ./random1G.dat 1048576 >> test58.txt
 
-test60.txt:job.sh random1G.dat
-	./job.sh test60.txt ./random1G.dat 60
+test59.txt:read random1G.dat
+	./read ./random1G.dat 1048576 >> test59.txt
 
-test61.txt:job.sh random1G.dat
-	./job.sh test61.txt ./random1G.dat 61
+test60.txt:read random1G.dat
+	./read ./random1G.dat 1048576 >> test60.txt
 
-test62.txt:job.sh random1G.dat
-	./job.sh test62.txt ./random1G.dat 62
+test61.txt:read random1G.dat
+	./read ./random1G.dat 1048576 >> test61.txt
 
-test63.txt:job.sh random1G.dat
-	./job.sh test63.txt ./random1G.dat 63
+test62.txt:read random1G.dat
+	./read ./random1G.dat 1048576 >> test62.txt
 
-test64.txt:job.sh random1G.dat
-	./job.sh test64.txt ./random1G.dat 64
+test63.txt:read random1G.dat
+	./read ./random1G.dat 1048576 >> test63.txt
 
-test65.txt:job.sh random1G.dat
-	./job.sh test65.txt ./random1G.dat 65
+test64.txt:read random1G.dat
+	./read ./random1G.dat 1048576 >> test64.txt
 
-test66.txt:job.sh random1G.dat
-	./job.sh test66.txt ./random1G.dat 66
+test65.txt:read random1G.dat
+	./read ./random1G.dat 1048576 >> test65.txt
 
-test67.txt:job.sh random1G.dat
-	./job.sh test67.txt ./random1G.dat 67
+test66.txt:read random1G.dat
+	./read ./random1G.dat 1048576 >> test66.txt
 
-test68.txt:job.sh random1G.dat
-	./job.sh test68.txt ./random1G.dat 68
+test67.txt:read random1G.dat
+	./read ./random1G.dat 1048576 >> test67.txt
 
-test69.txt:job.sh random1G.dat
-	./job.sh test69.txt ./random1G.dat 69
+test68.txt:read random1G.dat
+	./read ./random1G.dat 1048576 >> test68.txt
 
-test70.txt:job.sh random1G.dat
-	./job.sh test70.txt ./random1G.dat 70
+test69.txt:read random1G.dat
+	./read ./random1G.dat 1048576 >> test69.txt
 
-test71.txt:job.sh random1G.dat
-	./job.sh test71.txt ./random1G.dat 71
+test70.txt:read random1G.dat
+	./read ./random1G.dat 1048576 >> test70.txt
 
-test72.txt:job.sh random1G.dat
-	./job.sh test72.txt ./random1G.dat 72
+test71.txt:read random1G.dat
+	./read ./random1G.dat 1048576 >> test71.txt
 
-test73.txt:job.sh random1G.dat
-	./job.sh test73.txt ./random1G.dat 73
+test72.txt:read random1G.dat
+	./read ./random1G.dat 1048576 >> test72.txt
 
-test74.txt:job.sh random1G.dat
-	./job.sh test74.txt ./random1G.dat 74
+test73.txt:read random1G.dat
+	./read ./random1G.dat 1048576 >> test73.txt
 
-test75.txt:job.sh random1G.dat
-	./job.sh test75.txt ./random1G.dat 75
+test74.txt:read random1G.dat
+	./read ./random1G.dat 1048576 >> test74.txt
 
-test76.txt:job.sh random1G.dat
-	./job.sh test76.txt ./random1G.dat 76
+test75.txt:read random1G.dat
+	./read ./random1G.dat 1048576 >> test75.txt
 
-test77.txt:job.sh random1G.dat
-	./job.sh test77.txt ./random1G.dat 77
+test76.txt:read random1G.dat
+	./read ./random1G.dat 1048576 >> test76.txt
 
-test78.txt:job.sh random1G.dat
-	./job.sh test78.txt ./random1G.dat 78
+test77.txt:read random1G.dat
+	./read ./random1G.dat 1048576 >> test77.txt
 
-test79.txt:job.sh random1G.dat
-	./job.sh test79.txt ./random1G.dat 79
+test78.txt:read random1G.dat
+	./read ./random1G.dat 1048576 >> test78.txt
 
-test80.txt:job.sh random1G.dat
-	./job.sh test80.txt ./random1G.dat 80
+test79.txt:read random1G.dat
+	./read ./random1G.dat 1048576 >> test79.txt
 
-test81.txt:job.sh random1G.dat
-	./job.sh test81.txt ./random1G.dat 81
+test80.txt:read random1G.dat
+	./read ./random1G.dat 1048576 >> test80.txt
 
-test82.txt:job.sh random1G.dat
-	./job.sh test82.txt ./random1G.dat 82
+test81.txt:read random1G.dat
+	./read ./random1G.dat 1048576 >> test81.txt
 
-test83.txt:job.sh random1G.dat
-	./job.sh test83.txt ./random1G.dat 83
+test82.txt:read random1G.dat
+	./read ./random1G.dat 1048576 >> test82.txt
 
-test84.txt:job.sh random1G.dat
-	./job.sh test84.txt ./random1G.dat 84
+test83.txt:read random1G.dat
+	./read ./random1G.dat 1048576 >> test83.txt
 
-test85.txt:job.sh random1G.dat
-	./job.sh test85.txt ./random1G.dat 85
+test84.txt:read random1G.dat
+	./read ./random1G.dat 1048576 >> test84.txt
 
-test86.txt:job.sh random1G.dat
-	./job.sh test86.txt ./random1G.dat 86
+test85.txt:read random1G.dat
+	./read ./random1G.dat 1048576 >> test85.txt
 
-test87.txt:job.sh random1G.dat
-	./job.sh test87.txt ./random1G.dat 87
+test86.txt:read random1G.dat
+	./read ./random1G.dat 1048576 >> test86.txt
 
-test88.txt:job.sh random1G.dat
-	./job.sh test88.txt ./random1G.dat 88
+test87.txt:read random1G.dat
+	./read ./random1G.dat 1048576 >> test87.txt
 
-test89.txt:job.sh random1G.dat
-	./job.sh test89.txt ./random1G.dat 89
+test88.txt:read random1G.dat
+	./read ./random1G.dat 1048576 >> test88.txt
 
-test90.txt:job.sh random1G.dat
-	./job.sh test90.txt ./random1G.dat 90
+test89.txt:read random1G.dat
+	./read ./random1G.dat 1048576 >> test89.txt
 
-test91.txt:job.sh random1G.dat
-	./job.sh test91.txt ./random1G.dat 91
+test90.txt:read random1G.dat
+	./read ./random1G.dat 1048576 >> test90.txt
 
-test92.txt:job.sh random1G.dat
-	./job.sh test92.txt ./random1G.dat 92
+test91.txt:read random1G.dat
+	./read ./random1G.dat 1048576 >> test91.txt
 
-test93.txt:job.sh random1G.dat
-	./job.sh test93.txt ./random1G.dat 93
+test92.txt:read random1G.dat
+	./read ./random1G.dat 1048576 >> test92.txt
 
-test94.txt:job.sh random1G.dat
-	./job.sh test94.txt ./random1G.dat 94
+test93.txt:read random1G.dat
+	./read ./random1G.dat 1048576 >> test93.txt
 
-test95.txt:job.sh random1G.dat
-	./job.sh test95.txt ./random1G.dat 95
+test94.txt:read random1G.dat
+	./read ./random1G.dat 1048576 >> test94.txt
 
-test96.txt:job.sh random1G.dat
-	./job.sh test96.txt ./random1G.dat 96
+test95.txt:read random1G.dat
+	./read ./random1G.dat 1048576 >> test95.txt
 
-test97.txt:job.sh random1G.dat
-	./job.sh test97.txt ./random1G.dat 97
+test96.txt:read random1G.dat
+	./read ./random1G.dat 1048576 >> test96.txt
 
-test98.txt:job.sh random1G.dat
-	./job.sh test98.txt ./random1G.dat 98
+test97.txt:read random1G.dat
+	./read ./random1G.dat 1048576 >> test97.txt
 
-test99.txt:job.sh random1G.dat
-	./job.sh test99.txt ./random1G.dat 99
+test98.txt:read random1G.dat
+	./read ./random1G.dat 1048576 >> test98.txt
+
+test99.txt:read random1G.dat
+	./read ./random1G.dat 1048576 >> test99.txt
 

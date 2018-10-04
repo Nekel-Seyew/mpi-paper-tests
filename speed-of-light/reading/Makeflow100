@@ -1,0 +1,304 @@
+CORES=1
+MEMORY=1000
+DISK=2048
+
+test0.txt:read random1G.dat.0
+	./read ./random1G.dat.0 1048576 >> test0.txt
+
+test1.txt:read random1G.dat.1
+	./read ./random1G.dat.1 1048576 >> test1.txt
+
+test2.txt:read random1G.dat.2
+	./read ./random1G.dat.2 1048576 >> test2.txt
+
+test3.txt:read random1G.dat.3
+	./read ./random1G.dat.3 1048576 >> test3.txt
+
+test4.txt:read random1G.dat.4
+	./read ./random1G.dat.4 1048576 >> test4.txt
+
+test5.txt:read random1G.dat.5
+	./read ./random1G.dat.5 1048576 >> test5.txt
+
+test6.txt:read random1G.dat.6
+	./read ./random1G.dat.6 1048576 >> test6.txt
+
+test7.txt:read random1G.dat.7
+	./read ./random1G.dat.7 1048576 >> test7.txt
+
+test8.txt:read random1G.dat.8
+	./read ./random1G.dat.8 1048576 >> test8.txt
+
+test9.txt:read random1G.dat.9
+	./read ./random1G.dat.9 1048576 >> test9.txt
+
+test10.txt:read random1G.dat.10
+	./read ./random1G.dat.10 1048576 >> test10.txt
+
+test11.txt:read random1G.dat.11
+	./read ./random1G.dat.11 1048576 >> test11.txt
+
+test12.txt:read random1G.dat.12
+	./read ./random1G.dat.12 1048576 >> test12.txt
+
+test13.txt:read random1G.dat.13
+	./read ./random1G.dat.13 1048576 >> test13.txt
+
+test14.txt:read random1G.dat.14
+	./read ./random1G.dat.14 1048576 >> test14.txt
+
+test15.txt:read random1G.dat.15
+	./read ./random1G.dat.15 1048576 >> test15.txt
+
+test16.txt:read random1G.dat.16
+	./read ./random1G.dat.16 1048576 >> test16.txt
+
+test17.txt:read random1G.dat.17
+	./read ./random1G.dat.17 1048576 >> test17.txt
+
+test18.txt:read random1G.dat.18
+	./read ./random1G.dat.18 1048576 >> test18.txt
+
+test19.txt:read random1G.dat.19
+	./read ./random1G.dat.19 1048576 >> test19.txt
+
+test20.txt:read random1G.dat.20
+	./read ./random1G.dat.20 1048576 >> test20.txt
+
+test21.txt:read random1G.dat.21
+	./read ./random1G.dat.21 1048576 >> test21.txt
+
+test22.txt:read random1G.dat.22
+	./read ./random1G.dat.22 1048576 >> test22.txt
+
+test23.txt:read random1G.dat.23
+	./read ./random1G.dat.23 1048576 >> test23.txt
+
+test24.txt:read random1G.dat.24
+	./read ./random1G.dat.24 1048576 >> test24.txt
+
+test25.txt:read random1G.dat.25
+	./read ./random1G.dat.25 1048576 >> test25.txt
+
+test26.txt:read random1G.dat.26
+	./read ./random1G.dat.26 1048576 >> test26.txt
+
+test27.txt:read random1G.dat.27
+	./read ./random1G.dat.27 1048576 >> test27.txt
+
+test28.txt:read random1G.dat.28
+	./read ./random1G.dat.28 1048576 >> test28.txt
+
+test29.txt:read random1G.dat.29
+	./read ./random1G.dat.29 1048576 >> test29.txt
+
+test30.txt:read random1G.dat.30
+	./read ./random1G.dat.30 1048576 >> test30.txt
+
+test31.txt:read random1G.dat.31
+	./read ./random1G.dat.31 1048576 >> test31.txt
+
+test32.txt:read random1G.dat.32
+	./read ./random1G.dat.32 1048576 >> test32.txt
+
+test33.txt:read random1G.dat.33
+	./read ./random1G.dat.33 1048576 >> test33.txt
+
+test34.txt:read random1G.dat.34
+	./read ./random1G.dat.34 1048576 >> test34.txt
+
+test35.txt:read random1G.dat.35
+	./read ./random1G.dat.35 1048576 >> test35.txt
+
+test36.txt:read random1G.dat.36
+	./read ./random1G.dat.36 1048576 >> test36.txt
+
+test37.txt:read random1G.dat.37
+	./read ./random1G.dat.37 1048576 >> test37.txt
+
+test38.txt:read random1G.dat.38
+	./read ./random1G.dat.38 1048576 >> test38.txt
+
+test39.txt:read random1G.dat.39
+	./read ./random1G.dat.39 1048576 >> test39.txt
+
+test40.txt:read random1G.dat.40
+	./read ./random1G.dat.40 1048576 >> test40.txt
+
+test41.txt:read random1G.dat.41
+	./read ./random1G.dat.41 1048576 >> test41.txt
+
+test42.txt:read random1G.dat.42
+	./read ./random1G.dat.42 1048576 >> test42.txt
+
+test43.txt:read random1G.dat.43
+	./read ./random1G.dat.43 1048576 >> test43.txt
+
+test44.txt:read random1G.dat.44
+	./read ./random1G.dat.44 1048576 >> test44.txt
+
+test45.txt:read random1G.dat.45
+	./read ./random1G.dat.45 1048576 >> test45.txt
+
+test46.txt:read random1G.dat.46
+	./read ./random1G.dat.46 1048576 >> test46.txt
+
+test47.txt:read random1G.dat.47
+	./read ./random1G.dat.47 1048576 >> test47.txt
+
+test48.txt:read random1G.dat.48
+	./read ./random1G.dat.48 1048576 >> test48.txt
+
+test49.txt:read random1G.dat.49
+	./read ./random1G.dat.49 1048576 >> test49.txt
+
+test50.txt:read random1G.dat.50
+	./read ./random1G.dat.50 1048576 >> test50.txt
+
+test51.txt:read random1G.dat.51
+	./read ./random1G.dat.51 1048576 >> test51.txt
+
+test52.txt:read random1G.dat.52
+	./read ./random1G.dat.52 1048576 >> test52.txt
+
+test53.txt:read random1G.dat.53
+	./read ./random1G.dat.53 1048576 >> test53.txt
+
+test54.txt:read random1G.dat.54
+	./read ./random1G.dat.54 1048576 >> test54.txt
+
+test55.txt:read random1G.dat.55
+	./read ./random1G.dat.55 1048576 >> test55.txt
+
+test56.txt:read random1G.dat.56
+	./read ./random1G.dat.56 1048576 >> test56.txt
+
+test57.txt:read random1G.dat.57
+	./read ./random1G.dat.57 1048576 >> test57.txt
+
+test58.txt:read random1G.dat.58
+	./read ./random1G.dat.58 1048576 >> test58.txt
+
+test59.txt:read random1G.dat.59
+	./read ./random1G.dat.59 1048576 >> test59.txt
+
+test60.txt:read random1G.dat.60
+	./read ./random1G.dat.60 1048576 >> test60.txt
+
+test61.txt:read random1G.dat.61
+	./read ./random1G.dat.61 1048576 >> test61.txt
+
+test62.txt:read random1G.dat.62
+	./read ./random1G.dat.62 1048576 >> test62.txt
+
+test63.txt:read random1G.dat.63
+	./read ./random1G.dat.63 1048576 >> test63.txt
+
+test64.txt:read random1G.dat.64
+	./read ./random1G.dat.64 1048576 >> test64.txt
+
+test65.txt:read random1G.dat.65
+	./read ./random1G.dat.65 1048576 >> test65.txt
+
+test66.txt:read random1G.dat.66
+	./read ./random1G.dat.66 1048576 >> test66.txt
+
+test67.txt:read random1G.dat.67
+	./read ./random1G.dat.67 1048576 >> test67.txt
+
+test68.txt:read random1G.dat.68
+	./read ./random1G.dat.68 1048576 >> test68.txt
+
+test69.txt:read random1G.dat.69
+	./read ./random1G.dat.69 1048576 >> test69.txt
+
+test70.txt:read random1G.dat.70
+	./read ./random1G.dat.70 1048576 >> test70.txt
+
+test71.txt:read random1G.dat.71
+	./read ./random1G.dat.71 1048576 >> test71.txt
+
+test72.txt:read random1G.dat.72
+	./read ./random1G.dat.72 1048576 >> test72.txt
+
+test73.txt:read random1G.dat.73
+	./read ./random1G.dat.73 1048576 >> test73.txt
+
+test74.txt:read random1G.dat.74
+	./read ./random1G.dat.74 1048576 >> test74.txt
+
+test75.txt:read random1G.dat.75
+	./read ./random1G.dat.75 1048576 >> test75.txt
+
+test76.txt:read random1G.dat.76
+	./read ./random1G.dat.76 1048576 >> test76.txt
+
+test77.txt:read random1G.dat.77
+	./read ./random1G.dat.77 1048576 >> test77.txt
+
+test78.txt:read random1G.dat.78
+	./read ./random1G.dat.78 1048576 >> test78.txt
+
+test79.txt:read random1G.dat.79
+	./read ./random1G.dat.79 1048576 >> test79.txt
+
+test80.txt:read random1G.dat.80
+	./read ./random1G.dat.80 1048576 >> test80.txt
+
+test81.txt:read random1G.dat.81
+	./read ./random1G.dat.81 1048576 >> test81.txt
+
+test82.txt:read random1G.dat.82
+	./read ./random1G.dat.82 1048576 >> test82.txt
+
+test83.txt:read random1G.dat.83
+	./read ./random1G.dat.83 1048576 >> test83.txt
+
+test84.txt:read random1G.dat.84
+	./read ./random1G.dat.84 1048576 >> test84.txt
+
+test85.txt:read random1G.dat.85
+	./read ./random1G.dat.85 1048576 >> test85.txt
+
+test86.txt:read random1G.dat.86
+	./read ./random1G.dat.86 1048576 >> test86.txt
+
+test87.txt:read random1G.dat.87
+	./read ./random1G.dat.87 1048576 >> test87.txt
+
+test88.txt:read random1G.dat.88
+	./read ./random1G.dat.88 1048576 >> test88.txt
+
+test89.txt:read random1G.dat.89
+	./read ./random1G.dat.89 1048576 >> test89.txt
+
+test90.txt:read random1G.dat.90
+	./read ./random1G.dat.90 1048576 >> test90.txt
+
+test91.txt:read random1G.dat.91
+	./read ./random1G.dat.91 1048576 >> test91.txt
+
+test92.txt:read random1G.dat.92
+	./read ./random1G.dat.92 1048576 >> test92.txt
+
+test93.txt:read random1G.dat.93
+	./read ./random1G.dat.93 1048576 >> test93.txt
+
+test94.txt:read random1G.dat.94
+	./read ./random1G.dat.94 1048576 >> test94.txt
+
+test95.txt:read random1G.dat.95
+	./read ./random1G.dat.95 1048576 >> test95.txt
+
+test96.txt:read random1G.dat.96
+	./read ./random1G.dat.96 1048576 >> test96.txt
+
+test97.txt:read random1G.dat.97
+	./read ./random1G.dat.97 1048576 >> test97.txt
+
+test98.txt:read random1G.dat.98
+	./read ./random1G.dat.98 1048576 >> test98.txt
+
+test99.txt:read random1G.dat.99
+	./read ./random1G.dat.99 1048576 >> test99.txt
+

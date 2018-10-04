@@ -1,0 +1,17 @@
+import os
+import sys
+
+if __name__ == '__main__':
+	trans = {}
+	with open(sys.argv[1],'r') as f:
+		for line in f:
+			if '#' in line:
+				sline = line.split()
+				for x in range(1,len(sline)): #skipping first item which is #
+					trans[sline[x]] = x-1
+				continue
+			sline = line.split()
+			if( int(sline[trans['workers_connected']]) > 5):
+				print("More than 5 WORKERS!!!")
+
+			
