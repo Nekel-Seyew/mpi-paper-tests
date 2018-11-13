@@ -1,6 +1,7 @@
 #!/bin/sh
 
 #printf "%s\n" $(date +"%s.%N") >> $1
+dd if=/dev/urandom of=random1G.dat count=2097152 #this is using the default block size of 512 bytes
 for y in $(seq 0 1 100)
 do
 	#./read $2 
