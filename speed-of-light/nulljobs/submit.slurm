@@ -8,4 +8,5 @@
 #SBATCH --export=ALL
 #SBATCH -t 24:30:00
 
-ibrun makeflow -T mpi -gall -dall -o $2 $1
+ibrun makeflow -T mpi Makeflow
+#ibrun mpi_starter -m "Makeflow"
