@@ -7,5 +7,5 @@
 #$ -N scaleread	 # Specify job name
 
 
-mpirun -np $NSLOTS mpi_starter -m "$1" --debug $2
+mpirun -np $NSLOTS makeflow_mpi_starter -m "$1" --debug $2
 #mpirun -np $NSLOTS makeflow -T mpi -dall -o $2 $1

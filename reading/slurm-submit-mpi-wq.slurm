@@ -9,5 +9,5 @@
 
 
 
-ibrun mpi_starter -m "$1 -gall" --debug $2
+ibrun makeflow_mpi_starter -m "$1 -gall" --debug $2
 #mpirun -np $NSLOTS makeflow -T mpi -dall -o $2 $1
