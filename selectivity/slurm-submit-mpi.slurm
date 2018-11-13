@@ -11,4 +11,4 @@
 
 #mpirun -np $NSLOTS mpi_starter -m "$1" --debug mpi_starter.debug
 #module load remora
-ibrun makeflow -T mpi -gall -dall -o $2 $1
+ibrun makeflow -T mpi -dall -o $2 $1
