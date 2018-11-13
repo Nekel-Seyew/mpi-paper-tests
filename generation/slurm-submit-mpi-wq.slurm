@@ -10,5 +10,5 @@
 
 
 #ibrun mpi_starter -q "--workdir " -m "$1" --debug $2
-ibrun mpi_starter -m "$1 -gall" --debug $2
+ibrun makeflow_mpi_starter -m "$1 -gall" --debug $2
 #mpirun -np $NSLOTS makeflow -T mpi -dall -o $2 $1

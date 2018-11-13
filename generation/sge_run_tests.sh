@@ -42,7 +42,7 @@ echo "Run Wq+MPI"
 	qdel -u `whoami`
 	sleep 180 #sleep for 17min, to give workers time to stop running
         rm out*.txt
-	python ../onlyFive *.wqlog
+	python ../onlyFive ../*.wqlog
         mv ../Makeflow1KiB.* ./
         cd ../
 
@@ -83,7 +83,7 @@ echo "Run Wq+MPI"
 	qdel -u `whoami`
 	sleep 180 #sleep for 17min, to give workers time to stop running
         rm out*.txt
-	python ../onlyFive *.wqlog
+	python ../onlyFive ../*.wqlog
         mv ../Makeflow10KiB.* ./
         cd ../
 
@@ -123,7 +123,7 @@ echo "Run Wq+MPI"
 	qdel -u `whoami`
 	sleep 180 #sleep for 17min, to give workers time to stop running
         rm out*.txt
-	python ../onlyFive *.wqlog
+	python ../onlyFive ../*.wqlog
         mv ../Makeflow100KiB.* ./
         cd ../
 
@@ -163,7 +163,7 @@ echo "Run Wq+MPI"
 	qdel -u `whoami`
 	sleep 180 #sleep for 17min, to give workers time to stop running
         rm out*.txt
-	python ../onlyFive *.wqlog
+	python ../onlyFive ../*.wqlog
         mv ../Makeflow1MiB.* ./
         cd ../
 
@@ -203,7 +203,7 @@ echo "Run Wq+MPI"
 	qdel -u `whoami`
 	sleep 180 #sleep for 17min, to give workers time to stop running
         rm out*.txt
-	python ../onlyFive *.wqlog
+	python ../onlyFive ../*.wqlog
         mv ../Makeflow10MiB.* ./
         cd ../
 
@@ -244,7 +244,7 @@ echo "Run Wq+MPI"
 	qdel -u `whoami`
 	sleep 180 #sleep for 17min, to give workers time to stop running
         rm out*.txt
-	python ../onlyFive *.wqlog
+	python ../onlyFive ../*.wqlog
         mv ../Makeflow100MiB.* ./
         cd ../
 
@@ -284,7 +284,7 @@ echo "Run Wq+MPI"
 	qdel -u `whoami`
 	sleep 180 #sleep for 17min, to give workers time to stop running
         rm out*.txt
-	python ../onlyFive *.wqlog
+	python ../onlyFive ../*.wqlog
         mv ../Makeflow1GiB.* ./
         cd ../
 
@@ -324,7 +324,7 @@ echo "Run Wq+MPI"
 	qdel -u `whoami`
 	sleep 180 #sleep for 17min, to give workers time to stop running
         rm out*.txt
-	python ../onlyFive *.wqlog
+	python ../onlyFive ../*.wqlog
         mv ../Makeflow10GiB.* ./
         cd ../
 
